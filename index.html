@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Case Study</title>
+</head>
+<body>
+  
+ <section class="header"> 
+    <div class="hero">
+        <div class="heroImg">
+            <img src="images/Header.png">
+        </div>
+        <div class="container">
+          <h3>The Intelligent Book Recommendation App</h3>
+          <p class="lead">UX Researcher & Designer </p>
+        </div>
+    </div>
+
+
+ <!--Nav Start-->
+    <nav> 
+        <ul class="nav justify-content-center ">
+            <li class="nav-item">
+                <a class="nav-link active" href="#overview">Overview</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#research">Research</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#definition">Definition</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#iteration">Iteration</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="#prototype">Protoype</a>
+             </li>
+        </ul>
+    </nav>
+<!--Nav End-->
+</section>  
+
+
+<!--Overview Section Start-->
+<section id="overview" >
+    <div class="overviewPicker">
+        <div class="row">
+            <div class="col-3">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Problem Statement</a>
+                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Solution</a>
+                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Tools Used</a>
+            </div>
+            </div>
+            <div class="col-9">
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Readers are overwhelmed by the multitude of reading apps
+                    with questionable trustworthiness. How might we combine
+                    the best features from pre-existing apps and sources into a
+                    single, trustworthy and intelligent platform?</div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Bookish a mobile application that makes intelligent,
+                    personalized recommendations based on reader's
+                    preferences and a combined review from multiple trusted
+                    sources.</div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">AdobeXD, Invision, Miro </div>
+            </div>
+            </div>
+        </div>
+    </div>  
+</section>
+<!--Overview Section End-->
+
+
+<!--Research Section Start-->
+<section id="research"> 
+    <div class="sectionHeader">
+        <h2>Research</h2>
+        <p>Objective: Understand how readers decide what book to read next with a
+            focus on tools, sources, consumption habits, and friends' influence</p>
+        <p>Hypothesis: Readers use many sources (such as apps, websites and
+            sponsored book clubs) to get book recommendations, but friends are the
+            most trusted source</p>
+        <h4>Key Findings</h4>
+    </div>
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Key Finding One
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                50% respondents said friends were their most trusted source.This indicated to us that recommendations needed to incorporate friends' opinions, but also include other sources. It needed to be a balance. 
+                <img src="images/key finding 1.png">
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Key Finding Two
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                63% respondents said they look for titles monthly. This indicated to us that titles were looked for in chunks and it would need to be quick and easy to save books when searching.
+                <img src="images/key finding2.png">
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Key Finding Three
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                Most important features in a book app were:
+                <ul>
+                    <li>Getting personalized recommendations (70.4%)</li>
+                    <li>Reading book reviews (57.4%)</li>
+                    <li>Keeping track of the books you’ve read (57.4%)</li>
+                </ul>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+</section>
+
+
+<!--Definition Section Start-->
+<section id="definition"> 
+    <div class="sectionHeader">
+        <h2>Definition</h2>
+    </div>
+    
+        <div id="userJourney">
+            <img src="images/user Insight.png">
+            <img src="images/user journey.png"> 
+        </div>
+</section>
+<!--Definition Section End-->
+
+
+<!--Iteration Section Start-->
+<section id="iteration"> 
+    <div class="sectionHeader">
+        <h2>Iteration</h2>
+        <p>Through the process of iteration we combined rough mockups from both developers to create a cohesive final product.</p>
+        <p>Example 1: The final design for the home screen was a combination of features on both designer’s home screens with a single, consistent formatting applied. </p>
+        <img src="images/Iteration.png" >
+    </div>
+
+</section>
+<!--Iteration Section End-->
+
+
+<!--Prototype Section Start-->
+<section id="prototype"> 
+    <div class="sectionHeader">
+        <h2>Prototype</h2>
+        <p>Final prototype designed using Adobe XD</p>
+        <img src="images/final prototype.png">
+        <div class="bigButton">
+                <a id="bigButton" class="btn btn-primary btn-lg btn-block" href="https://xd.adobe.com/view/5e3dc344-c23c-48b2-afe2-eab09764d603-0b6e/" target="_blank">View Clickable Protoype</a>
+         </div>
+    </div>
+
+</section>
+<!--Prototype Section End-->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

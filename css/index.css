@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero{
+    background-color:#5B6FAB;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+}
+
+.heroImg img {
+    width: 100%;
+    max-width: 1500px;
+}
+
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav {
+    background-color:#5B6FAB;
+}
+
+
+
+nav a {
+    color: white;
+
+}
+
+.row {
+    margin: 100px;
+}
+
+.row a {
+    color: #5B6FAB;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #5B6FAB;
+}
+
+.accordion {
+    margin: 50px;
+}
+
+.sectionHeader {
+    text-align: center;
+}
+
+.sectionHeader h2,p,h4{
+    padding: 20px;
+}
+
+.sectionHeader h2 {
+    background-color: #5B6FAB;
+    color: white;
+}
+
+.sectionHeader h4 {
+    color:#5B6FAB;
+}
+
+.card button {
+    color:#5B6FAB;
+}
+
+.accordion img {
+    max-width: 700px;
+}
+
+
+#prototype img, #iteration img {
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+
+#userJourney {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#definition img {
+    width: 100%;
+    max-width: 800px;
+}
+
+
+.bigButton {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-lg{
+    background-color:#5B6FAB;
+    margin: 20px;
+    width: 100%;
+    max-width: 1200px;
+
+}
